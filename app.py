@@ -166,6 +166,6 @@ if uploaded_pdfs and st.button("Extract All Details"):
     st.download_button(
         label="📥 Download Excel (sheets by document type)",
         data=xbuf,
-        file_name="parsed_documents_by_type.xlsx",
+        file_name="parsed_document.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     )
